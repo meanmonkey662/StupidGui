@@ -2,6 +2,9 @@ package gui.view;
 
 import javax.swing.JFrame;
 import gui.controller.GUIAppController;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+
 /**
  * @author kkoc6943
  * @version 0.3 Nov 9 2015 Added a reference to the GUIPanel and installed it as the content pane.
@@ -22,8 +25,10 @@ public class GUIFrame extends JFrame
 	
 	private void setupFrame()
 	{
+		
 		this.setContentPane(basePanel);   //Sets the panel in the GUIFrame, this is REQUIRED!!!
 		this.setResizable(false);         //Usually a good idea but not required.
+		this.setTitle("My window app");
 		this.setSize(400,400);            //Sets the size. 
 		this.setVisible(true);            //Must be the last line of code in the setupFrame method.
 		
