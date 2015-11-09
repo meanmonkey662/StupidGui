@@ -1,4 +1,4 @@
-package GuiController;
+package gui.controller;
 
 import gui.view.GUIFrame;
 
@@ -8,20 +8,26 @@ import gui.view.GUIFrame;
  * @version 0.1 Nov 9, 2015
  * 
  */
-public class GuiController
+public class GUIAppController
 {
 	/**
 	 * Reference to the GUIFrame object of the view.
 	 */
 	private GUIFrame baseFrame;
 	
-	public GuiController()
+	public GUIAppController()
 	{
 		baseFrame = new GUIFrame(this);
 	}
 	
 	public void start()
 	{
+		
+		
+		
+		
+		
+		
 		
 	}
 }

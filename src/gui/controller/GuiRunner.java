@@ -1,4 +1,4 @@
-package GuiController;
+package gui.controller;
 
 /**
  * 
@@ -13,7 +13,7 @@ public class GuiRunner
 	 */
 	public static void main(String [] args)
 	{
-		GuiController myController = new GuiController();
+		GUIAppController myController = new GUIAppController();
 		myController.start();
 	}
 	
